@@ -45,17 +45,17 @@ extension ColorExtension on Color {
 
   // facilitate opacity method
   /// Returns a new [Color] with an opacity of 12%.
-  Color get opacity12 => withOpacity(12);
+  Color get opacity12 => withOpacity(.12);
 
   /// Returns a new [Color] with an opacity of 25%.
-  Color get opacity25 => withOpacity(25);
+  Color get opacity25 => withOpacity(.25);
 
   /// Returns a new [Color] with an opacity of 50%.
-  Color get opacity50 => withOpacity(50);
+  Color get opacity50 => withOpacity(.50);
 
   /// Returns a new [Color] with an opacity of 75%.
-  Color get opacity75 => withOpacity(75);
+  Color get opacity75 => withOpacity(.75);
 
   /// Returns a new [Color] with an opacity of 87%.
-  Color get opacity87 => withOpacity(87);
+  Color get opacity87 => withOpacity(.87);
 }
