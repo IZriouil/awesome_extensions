@@ -36,6 +36,10 @@ extension ColorExtension on Color {
     );
   }
 
+  /// Returns the inverted color.
+  ///
+  /// The inverted color is obtained by subtracting the red, green, and blue values of the original color from 255.
+  /// The alpha value of the original color is preserved.
   Color get invertColor => Color.fromARGB(
         alpha,
         255 - red,

@@ -50,10 +50,10 @@ extension MediaQueryExt on BuildContext {
   bool get isPhone => (mediaQueryShortestSide < 600);
 
   /// True if the shortestSide is largest than 600p
-  bool get isSmallTablet => (mediaQueryShortestSide >= 600);
+  bool get isSmallTablet => (mediaQueryShortestSide >= 600) && (mediaQueryShortestSide < 720);
 
   /// True if the shortestSide is largest than 720p
-  bool get isLargeTablet => (mediaQueryShortestSide >= 720);
+  bool get isLargeTablet => (mediaQueryShortestSide >= 720) && (mediaQueryShortestSide < 1200);
 
   /// True if the current device is Tablet
   bool get isTablet => isSmallTablet || isLargeTablet;
